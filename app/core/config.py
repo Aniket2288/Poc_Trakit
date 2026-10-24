@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     access_token_minutes: int = 15
     refresh_token_days: int = 7
 
-    cors_origins: list[str] = ["http://localhost:5173", "http://127.0.0.1:5173"]
+    cors_origins: list[str] = ["http://localhost:5173", "http://127.0.0.1:5173", "https://poc-trakit-frontend.onrender.com"]
 
     # Attachments
     upload_dir: str = "uploads"
